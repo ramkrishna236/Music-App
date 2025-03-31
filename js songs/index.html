@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Spotify</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Music Player</h1>
+  <main> 
+    <div id = "music">
+        <div id="card1">
+            <label for="exampleFormControlInput1" class="form-label">Filter By Genre:</label>  
+            <select id="song-type">
+
+            </select>
+            <div id = "songs"></div>
+        </div>
+<div id = "card2">
+ <div id ='section2'></div>
+ <button id = "prev" class = "playback">prev</button>
+ <button id = "next" class = "playback">next</button>
+<div id = "buttons">
+<button id = "playlist" class = 'play'>Add to playlist</button>
+</div>
+</div>
+ <div id = 'section3'>
+    <div>
+    <input id="input"  placeholder="Enter Playlist Name">
+    <button id = "create">Create Playlist</button>
+    </div>
+    <div id = "playlists">
+        <h2>Current Playlists</h2>
+        <div id="current"></div>
+        <h2>All Playlists</h2>
+        <div id ="all"></div>
+    </div>
+ </div>
+ <button id="toggleBtn">Light</button>
+    </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
