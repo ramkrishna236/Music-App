@@ -1,4 +1,4 @@
 # Music-App
 This is my music player
 <br>
-Author-Rama Krishna
+Author-Rama Krishna(Music-App)
